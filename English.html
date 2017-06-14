@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" />  
+    <title>Web Site</title>  
+    <meta name="title" content="NTOU DV Web site" />  
+    <meta name="description" content="NTOU Data Visualization" />  
+    <meta name="keywords" content="Data Visualization'資料視覺化'網頁程式設計" />   
+    <link id="theme" rel="stylesheet" type="text/css" href="style.css" title="theme" />  
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Condensed|Open+Sans+Condensed:700|Open+Sans:300|Open+Sans:300|Open+Sans:300italic" type="text/css" />  
+	<script type="text/javascript" language="javascript" src="js/jquery-1.8.1.min.js"></script>  
+	<script type="text/javascript" language="javascript" src="js/scripts.js"></script>  
+	<script type="text/javascript" language="javascript" src="js/theme.js"></script>  
+	<script type="text/javascript" language="javascript" src="js/custom.js"></script>  
+  </head>  
+  <body> 
+    <div id="wrapper"> 
+      <div class="bg"></div>  
+      <div class="row"> 
+        <div id="container-top"></div> 
+      </div>  
+      <div class="row"> 
+        <div id="container" class="pie"> 
+          <header id="header" class="pie"> 
+            <div class="bg"></div>  
+            <div id="logo"></div>  
+            <nav> 
+              <div id="hmenu"> <!-- style裡可以改hmenu-->
+                <ul> 
+                  <li> 
+                    <a href="English.html">Home</a> 
+                  </li>  
+                  <li> 
+                    <a href="全校概況_English.html">Distribution</a> 
+                  </li>  
+                  <li> 
+                    <a href="畢業抉擇_English.html">Graduation</a> 
+                  </li>  
+                  <li> 
+                    <a href="職場出路_English.html">Career</a> 
+                  </li> 
+				  <li> 
+                    <a href="index.html">中文版</a> 
+                  </li> 
+                </ul> 
+              </div> 
+            </nav>  
+            <div class="clear"></div> 
+          </header>  
+          <div id="banner"> 
+            <div id="tagline"> 
+              <h1>National Taiwan Ocean University</h1>  
+              <h2>Empolyment & Graduation Data Visualization</h2>  
+              <input  type="button" class="cta pie" value="more" onclick="location.href='javascript:jumpScroll()'" /> 
+			  <script type = "text/javascript">
+			    function jumpScroll() {
+				window.scroll(0,600); // 網頁目標位置 垂直; 水平;
+                }
+				function jumpScrollup() {
+				window.scroll(0,10); // 網頁目標位置 垂直; 水平;
+                }
+			  </script>
+			  <!-- <a href="javascript:jumpScroll()">Jump to another place on the page</a>
+			  http://www.mediacollege.com/internet/javascript/page/scroll.html -->  
+            </div> 
+          </div>  
+          <div id="page" class="home"> 
+            <div id="main"> 
+              <section class="home"> 
+                <div class="group wrapper"> 
+                  <div class="col span_1_of_3"> 
+                    <header> 
+                    <h3 style="font-weight:bold">Distribution</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/index_01.jpg')"></div>  
+                    <!--<p>想知道國立臺灣海洋大學<br>各系所的學生人數分布與就業趨勢嗎 ?<br>請點選 "check"</p>  
+					--><input type="button" class="button medium style1 pie" value="check" onclick="location.href='全校概況_English.html'"/>
+                  </div>  
+                  <div class="col span_1_of_3"> 
+                    <header> 
+                    <h3 style="font-weight:bold">Graduation</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/index_02.jpg')"></div>  
+                    <!--<p>想知道國立臺灣海洋大學<br>所有系所的學生人數分布嗎 ?<br>請點選 "check"</p>   
+					--><input type="button" class="button medium style1 pie" value="check" onclick="location.href='畢業抉擇_English.html'"/> 
+                  </div>  
+                  <div class="col span_1_of_3"> 
+                    <header> 
+                    <h3 style="font-weight:bold">Career</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/index_03.jpg')"></div>  
+                    <!--<p>想知道國立臺灣海洋大學<br>所有系所的學生人數分布嗎 ?<br>請點選 "check"</p>          
+					--><input type="button" class="button medium style1 pie" value="check" onclick="location.href='職場出路_English.html'"/> 
+                  </div> 
+                </div>  
+                <div class="license wrapper"> <!-- TO REMOVE --> 
+                  <br>
+                  <h3 style="font-weight:bold">Official Website</h3>  
+				  <div>
+					<img src = "images/ntou01.png" ></a>
+				  </div>  
+				  <input type="button" class="button medium style1 pie" value="go" onclick="window.open('http://www.ntou.edu.tw/bin/home.php')"/> 					  
+                  <br><br><h3 style="font-weight:bold">Location</h3>  
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10667.29874462435!2d121.76884420909757!3d25.150490592647987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4f063c44f073%3A0x58da11f75dcc14d!2z5ZyL56uL5Y-w54Gj5rW35rSL5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1497275410597" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br><br><input  type="button" class="cta pie" value="top"  onclick="location.href='javascript:jumpScrollup()'" /> 
+				</div> 
+              </section> 
+            </div>  
+            <div class="clear" style="height:60px"></div> 
+          </div>  
+          <footer id="footer" class="pie"> 
+            <div class="bg"></div>  
+            <div class="content"> 
+              <p> 
+                <!-- Update your copyright --> Copyright - 2017 - NTOU | All Rights Reserved
+              </p>  
+              <p style="font-size:0.9em;line-height:3em"> 
+                Designed by 
+                <a href="http://www.cs.ntou.edu.tw/cswp/">Daniel Wu | Tim Lo</a> NTOU Web Programming
+              </p>
+              <p> 
+                Welcome to share our website !
+              </p><br>				  
+              <div> 
+                <ul class="share-buttons">
+				  <li><a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
+				  <img alt="Share on Facebook" src="images/social/Facebook.png"></a></li>
+				  
+				  <li><a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank" title="Tweet">
+				  <img alt="Tweet" src="images/social/Twitter.png"></a></li>
+				  
+				  <li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+">
+				  <img alt="Share on Google+" src="images/social/Google+.png"></a></li>
+				  
+				  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" target="_blank" title="Share on LinkedIn">
+				  <img alt="Share on LinkedIn" src="images/social/LinkedIn.png"></a></li>
+				</ul>
+              </div> 
+            </div> 
+          </footer> 
+        </div> 
+      </div>  
+      <div class="row"> 
+        <div id="container-bottom"></div> 
+      </div> 
+    </div> 
+  </body> 
+</html>

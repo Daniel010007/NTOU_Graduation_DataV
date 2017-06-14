@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" />  
+    <title>Web Site</title>  
+    <meta name="title" content="NTOU DV Web site" />  
+    <meta name="description" content="NTOU Data Visualization" />  
+    <meta name="keywords" content="Data Visualization'資料視覺化'網頁程式設計" />  
+    <link id="theme" rel="stylesheet" type="text/css" href="style.css" title="theme" />  
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Condensed|Open+Sans+Condensed:700|Open+Sans:300|Open+Sans:300|Open+Sans:300italic" type="text/css" />  
+	<script type="text/javascript" language="javascript" src="js/jquery-1.8.1.min.js"></script>  
+	<script type="text/javascript" language="javascript" src="js/scripts.js"></script>  
+	<script type="text/javascript" language="javascript" src="js/theme.js"></script>  
+	<script type="text/javascript" language="javascript" src="js/custom.js"></script>  
+  </head>  
+  <body> 
+    <div id="wrapper"> 
+      <div class="bg"></div>  
+      <div class="row"> 
+        <div id="container-top"></div> 
+      </div>  
+      <div class="row"> 
+        <div id="container" class="pie"> 
+          <header id="header" class="pie"> 
+            <div class="bg"></div>  
+            <div id="logo"></div>  
+            <nav> 
+              <div id="hmenu"> 
+                <ul> 
+                  <li> 
+                    <a href="index.html">首頁</a> 
+                  </li>  
+                  <li> 
+                    <a href="全校概況.html">全校概況</a> 
+                  </li>  
+                  <li> 
+                    <a href="畢業抉擇.html">畢業抉擇</a> 
+                  </li>  
+                  <li> 
+                    <a href="職場出路.html">職場出路</a> 
+                  </li> 
+				  <li> 
+                    <a href="English.html">English</a> 
+                  </li> 
+                </ul> 
+              </div> 
+            </nav>  
+            <div class="clear"></div> 
+          </header>  
+          <div id="banner03"> 
+            <div id="tagline"> 
+              <h1>職場出路</h1>  
+              <!--<h2>資料視覺化</h2>-->  
+              <input  type="button" class="cta pie" value="了解更多"  onclick="location.href='javascript:jumpScroll()'" /> 
+			  <script type = "text/javascript">
+			    function jumpScroll() {
+				window.scroll(0,630); // 網頁目標位置 垂直; 水平;
+                }
+				function jumpScrollup() {
+				window.scroll(0,10); // 網頁目標位置 垂直; 水平;
+                }
+			  </script>
+			  <!-- <a href="javascript:jumpScroll()">Jump to another place on the page</a>
+			  http://www.mediacollege.com/internet/javascript/page/scroll.html -->  
+            </div> 
+          </div>  
+          <div id="page" class="home"> 
+            <div id="main"> 
+              <section class="home"> 
+                <div class="group wrapper">      
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">海運暨管理學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/商船.jpg')"></div>  
+                    <p>商船學系<br>1.船長／大副／船員
+					<br>2.運輸交通專業人員<br>3.船務／報關人員</p>  
+					<input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.mmd.ntou.edu.tw/intro.php?page=03')"/>
+                  </div>  
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">海運暨管理學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/航管.jpg')"></div>  
+                    <p>航運管理學系<br>1.業務人員
+					<br>2.船務／報關人員<br>3.運輸交通專業人員</p>  
+                    <!--<input type="button" class="button medium style1 pie" value="查看系網" onclick="location.href='https://plotdb.io/v/chart/13760'"/>-->
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.dstm.ntou.edu.tw/files/11-1023-1916.php?Lang=zh-tw')"/>
+				  </div>  
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">工學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/機械.jpg')"></div>  
+                    <p>機械與機電工程學系<br>1.生產設備工程師
+					<br>2.生產／製程工程師<br>3.機構工程師</p>           
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.me.ntou.edu.tw/empalumni_03.html')"/>
+                  </div>
+				  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">工學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/造船.jpg')"></div>  
+                    <p>系統工程暨造船學系<br>1.CAD／CAM工程師
+					<br>2.機械設計/繪圖人員<br>3.作業員／包裝員</p>           
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.se.ntou.edu.tw/hiring.php')"/>
+                  </div> 
+				  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">工學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/河工.jpg')"></div>  
+                    <p>河海工程學系<br>1.營造工程師
+					<br>2.工地監工／主任<br>3.土木技師／工程師</p>           
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.hre.ntou.edu.tw/zh-tw/?page_id=21')"/>
+                  </div> 
+                </div>
+				<div class="group wrapper">      
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">海運暨管理學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/運輸.jpg')"></div>  
+                    <p>運輸科學系<br>1.運輸交通專業人員
+					<br>2.船長／大副／船員<br>3.行政人員</p>  
+					<input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://tsweb.ntou.edu.tw/dts/alumni_outstanding.php')"/>
+                  </div>  
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">海運暨管理學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/輪機.jpg')"></div>  
+                    <p>輪機工程學系<br>1.船長／大副／船員
+					<br>2.生產設備工程師<br>3.機械操作員</p>
+                    <!--<input type="button" class="button medium style1 pie" value="查看系網" onclick="location.href='https://plotdb.io/v/chart/13760'"/>-->
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.ulive.ntou.edu.tw/introduction.htm#04')"/>
+				  </div>  
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">電機資訊學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/電機.jpg')"></div>  
+                    <p>電機工程學系<br>1.硬體研發工程師
+					<br>2.生產設備工程師<br>3.電子工程師</p>           
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.ee.ntou.edu.tw/zh/%E5%B0%B1%E6%A5%AD%E8%88%87%E7%B3%BB%E5%8F%8B%E5%B0%88%E5%8D%80/goals/')"/>
+                  </div>
+				  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">電機資訊學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/資工.jpg')"></div>  
+                    <p>資訊工程學系<br>1.軟體設計工程師
+					<br>2.其他資訊專業人員<br>3.資訊助理人員</p>            
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.cs.ntou.edu.tw/cswp/index.php?name=employment1#')"/>
+                  </div> 
+				  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">電機資訊學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/通訊.jpg')"></div>  
+                    <p>通訊與導航工程學系<br>1.RF通訊工程師
+					<br>2.業務人員<br>3.助理工程師</p>            
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.cnce.ntou.edu.tw/files/11-1040-3564.php?Lang=zh-tw')"/>
+                  </div> 
+                </div>
+				<div class="group wrapper">      
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">海洋與資源學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/環漁.jpg')"></div>  
+                    <p>環境與漁業科學學系<br>1.研究助理
+					<br>2.業務人員<br>3.行政助理</p>  
+					<input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.fd.ntou.edu.tw/empalumni.php?page=03')"/>
+                  </div>  
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">海洋與資源學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/海洋.jpg')"></div>  
+                    <p>海洋環境資訊系<br>1.軟體設計工程師
+					<br>2.行政人員<br>3.行政助理</p>   
+                    <!--<input type="button" class="button medium style1 pie" value="查看系網" onclick="location.href='https://plotdb.io/v/chart/13760'"/>-->
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.mei.ntou.edu.tw/files/11-1025-4995-1.php?Lang=zh-tw')"/>
+				  </div>  
+                  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">生命科學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/食科.jpg')"></div>  
+                    <p>食品科學系<br>1.品管／檢驗人員
+					<br>2.門市店員/專櫃人員<br>3.行政助理</p>             
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.fs.ntou.edu.tw/files/11-1021-3032.php?Lang=zh-tw')"/>
+                  </div>
+				  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">生命科學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/養殖.jpg')"></div>  
+                    <p>水產養殖學系<br>1.水產養殖工作者
+					<br>2.研究助理<br>3.門市店員/專櫃人員</p>             
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.aqua.ntou.edu.tw/tw/about_us/index.asp#9')"/>
+                  </div> 
+				  <div class="col span_1_of_5"> 
+                    <header> 
+                    <h3 style="font-weight:bold">生命科學院</h3>
+                    </header>  
+                    <div class="circular" style="background-image:url('images/department/生科.jpg')"></div>  
+                    <p>生命科學暨生技學系<br>1.研究助理
+					<br>2.門市店員/專櫃人員<br>3.其他專案管理師</p>            
+                    <input type="button" class="button medium style1 pie" value="查看系網" onclick="window.open('http://www.dbb.ntou.edu.tw/files/11-1016-3562.php?Lang=zh-tw')"/>
+                  </div> 
+                </div>  				
+                <div class="license wrapper"> 
+                  <br><br><br>
+                  <h3 style="font-weight:bold"></h3>  
+				  <div>
+					<img src = "images/ntou01.png" ></a>
+				  </div>  
+				  <!--<input type="button" class="button medium style1 pie" value="點我前往" onclick="location.href='http://www.ntou.edu.tw/bin/home.php'"/> 					  
+                  <!--<br><br><h3 style="font-weight:bold">地理位置</h3>  
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10667.29874462435!2d121.76884420909757!3d25.150490592647987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4f063c44f073%3A0x58da11f75dcc14d!2z5ZyL56uL5Y-w54Gj5rW35rSL5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1497275410597" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br><br><input  type="button" class="cta pie" value="回到頂部"  onclick="location.href='javascript:jumpScrollup()'" /> 
+				</div> -->
+              </section> 
+            </div>  
+            <div class="clear" style="height:60px"></div> 
+          </div>  
+          <!--<footer id="footer" class="pie"> 
+            <div class="bg"></div>  
+            <div class="content"> 
+              <p> 
+                Copyright - 2017 - NTOU | All Rights Reserved
+              </p>  
+              <p style="font-size:0.9em;line-height:3em"> 
+                Designed by 
+                <a href="http://www.dotemplate.com">Daniel Wu</a> NTOU Web Programming
+              </p>  
+              <div> 
+                <ul class="social-links"> 
+                  <li> 
+                    <a href="#" rel="nofollow" style="background-image:url('images/facebook.png')">Be a fan on Facebook</a> 
+                  </li>  
+                  <li> 
+                    <a href="#" rel="nofollow" style="background-image:url('images/twitter.png')">Follow us on Twitter</a> 
+                  </li>  
+                  <li> 
+                    <a href="#" style="background-image:url('images/googleplus.png')">Circle us on Google+</a> 
+                  </li>  
+                  <li> 
+                    <a href="#" rel="nofollow" style="background-image:url('images/rss.png')">RSS Feed</a> 
+                  </li> 
+                </ul> 
+              </div> 
+            </div> 
+          </footer> -->
+        </div> 
+      </div>  
+      <div class="row"> 
+        <div id="container-bottom"></div> 
+      </div> 
+    </div> 
+  </body> 
+</html>
